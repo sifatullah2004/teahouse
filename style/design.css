@@ -23,7 +23,8 @@
 .section-title{
     font-size: 2.81rem;
     font-weight: 800;
-    color: rgb(28, 28, 28)
+    color: rgb(28, 28, 28);
+    line-height: 50px;
 }
 .section-description{
     font-size: 1rem;
@@ -39,6 +40,7 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 67px;
+    margin-left: 11%;
 }
 .header-relative{
     display: flex;
@@ -165,6 +167,197 @@ header{
     color: rgb(119, 119, 119);
 }
 /* product section related style ends here */
+/* great tea section related style starts */
+.great-tea{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.great-tea-img-container{
+    width: calc(50% - 5px);
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    gap: 30px;
+    padding: 20px;
+}
+.great-tea-text{
+    width: calc(50% - 5px);
+    margin-top: 20px;
+}
+.grid-box{
+    border-radius: 10px;
+    width: 238px;
+}
+.great-tea-img-1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 3;
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+    opacity: 0.1;
+    transform: rotate(-180.00deg);
+    height: 136px;
+  
+}
+.great-tea-img-2{
+    grid-column: 7/span 6;
+    grid-row: 1/span 9;
+    background: rgba(230, 166, 35, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 355px;
+    
+}
+.great-tea-img-3{
+    grid-column: 1/span 6;
+    grid-row: 4/span 9;
+    background: rgba(87, 118, 57, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 355px;
+   
+}
+.great-tea-img-2 > div{
+    width: 177px;
+    height: 266px;
+    border: 2.3px dashed rgba(128, 128, 128, 0.401);
+    margin-top: 20px;
+
+}
+.great-tea-img-3 > div{
+    width: 146px;
+    height: 270px;
+    border: 2.3px dashed rgba(128, 128, 128, 0.401);
+}
+.great-tea-img-2 > div img, .great-tea-img-2 > div img{
+    width: 100%;
+    height: 100%;
+}
+.great-tea-img-4{
+    grid-column: 7/span 6;
+    grid-row: 8/span 3;
+    background: linear-gradient(90.00deg, rgb(217, 217, 217),rgba(255, 255, 255, 0) 100%);
+    height: 136px;
+}
+.title-alter{
+    font-size: 1.125rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.great-tea-text > p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.great-tea-text-child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* great tea section related style ends */
+/* super clint related styles starts */
+.super-clint{
+    max-width: 1140px;
+    margin: 0 auto;
+    background: url("../images/bg_cup.png"), linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 26% 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 103px 70px 80px 70px;
+
+
+}
+.clint-text{
+    width: 440px;
+}
+.clint-text-title{
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: rgb(244, 244, 244);
+    margin-bottom: 34px;
+
+}
+.clint-text-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(244, 244, 244);
+    margin-bottom: 30px;
+    line-height: 28px;
+
+
+}
+.clint-btn{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 14px 25px 15px 28px;
+    border: none;
+}
+.clint-btn p{
+    background: linear-gradient(270.00deg, rgb(255, 0, 0),rgb(255, 137, 56));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.clint-card-container{
+    position: relative;
+}
+.clint-card{
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    position: relative;
+    padding: 30px;
+}
+.clint-card-text{
+    color: rgb(119, 119, 119);
+    margin-bottom: 20px;
+}
+.clint-name{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.clint-occupation{
+    color: rgb(93, 90, 111);
+    font-weight: 500;
+}
+.profile-pic{
+    position: absolute;
+    left: -5%;
+    top: -10%;
+}
+.circle-icon{
+    position: absolute;
+    left: 90%;
+    bottom: 10%;
+
+}
+.clint-card-container-child{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 57px;
+}
+.clint-cart-absolute{
+    position: absolute;
+    left: -20%;
+    top: 25%;
+}
+.clint-card-1{
+    opacity: 0.3;
+}
+
+
+
+
+
+/* super clint related styles ends */
 
 
 
@@ -177,11 +370,13 @@ header{
 
      header{
         margin-top: 30px;
+        margin-left: 0;
      }
     .header-relative{
-        flex-direction: column;
+        flex-direction: column;        
+    }
+    .header-relative{
         gap: 60px;
-        
     }
     .banner-text{
         width: calc(100% - 40px);
@@ -217,6 +412,53 @@ header{
     .product-container{
         flex-direction: column;
         align-items: center;
+    }
+    .great-tea{
+        flex-direction: column-reverse;
+    }
+    .great-tea-img-container{
+        width: calc(100% - 30px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .great-tea-img-1{
+        width: 238px;
+        height: 136px;
+    }
+    .great-tea-img-2{
+       width: 238px;
+       height: 355px;
+    }
+    .great-tea-img-3{
+        width: 238px;
+        height: 355px;
+       
+    }
+    .great-tea-img-4{
+        width: 238px;
+        height: 136px;
+    }
+    .great-tea-text{
+        width: calc(100% - 30px);
+        margin: 20px auto;
+    }
+    .super-clint{
+        max-width: calc(100% - 20px);
+        flex-direction: column;
+        margin-top: 100px;
+        padding: 20px;
+        gap: 80px;
+    }
+    .clint-text{
+        width: calc(100% - 20px);
+        margin: 30px auto;
+    }
+    .clint-card{
+        width: calc(100% - 30px);
+    }
+    .clint-cart-absolute{
+        left: 0.1%;
     }
 
 }
