@@ -612,13 +612,14 @@ footer{
     }
     .footer-child-1{
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
         width: calc(100% - 30px);
         margin: 0 auto;
     }
     .footer-child-1 ul{
         margin-right: 0;
         width: 100%;
+        justify-content: space-between;
     }
     .footer-child-2{
         flex-direction: column;
